@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>행복 여행사</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico">
+    <link rel="stylesheet" href="./css/homework_0721 (1).css">
+</head>
+
+<body>
+    <header id="header">
+        <div id="container" role="banner">
+
+            <div>
+                <img id="img" src="./images/img_girl.jpg" alt="삼족오 그림">
+            </div>
+            <div id="tophead">
+                <h1>1.객실선택 > <span class="wordstrong">2.예약하기</span> > 3.결제</h1>
+            </div>
+
+            <div>
+                <button id="startbutton" type="submit">로그인/회원가입</button>
+            </div>
+
+
+        </div>
+
+    </header>
+    <hr>
+    <main>
+
+        <section>
+            <h3>로그인 또는 회원가입하고, 체크아웃 후 XX코인을 적립하세요</h3>
+            <hr>
+            <div>
+                <h2>투숙객 정보</h2>
+                <p>투숙객 이름은 체크인시 제시할 유효한 신분증 이름과 정확히 일치해야합니다.</p>
+
+            </div>
+            <hr>
+            <div id="fieldcontainer">
+
+                <fieldset style="width:200px; height:50px; padding: 1px;">
+                    <legend>성</legend>
+                    <input type="text" name="lastname" placeholder="성만 적으세요.">
+                </fieldset>
+                <fieldset style="width:200px; height:50px; padding: 1px;">
+                    <legend>이름</legend>
+                    <input type="text" name="name" placeholder="이름만 적으세요.">
+                </fieldset>
+            </div>
+            <hr>
+            <div id="fieldcontainer">
+                <fieldset id="fieldset">
+                    <legend>이메일</legend>
+                    <input type="email" placeholder="이메일을 적으세요">
+                </fieldset>
+                <fieldset id="fieldcontainer" style="width : auto; height:50px; padding: 1px;">
+                    <legend>휴대폰</legend>
+
+                    <select>
+                        <option value="#">대한민국 +82</option>
+                        <option value="#">베트남 +83</option>
+                        <option value="#">영국 +84</option>
+                        <option value="#">미국 +85</option>
+                    </select>
+                    <div>
+                        <label for="select"></label><input type="tel" placeholder="010-0000-0000">
+                        <label for="select"></label>
+                    </div>
+                </fieldset>
+
+            </div>
+
+            <hr>
+
+
+            </form>
+        </section>
+        <br>
+        <section>
+            <div>
+                <h2>별도 요청 <sub>(선택)</sub></h2>
+                <p>숙소는 최선을 다해 요청사항을 제공해 드릴수 있도록 최선을 다하겠습니다. 다만, 사정에 따라 제공여부가 보장되지 않을수 있습니다.</p>
+            </div>
+
+            <div>
+                <fieldset>
+                    <h3>엘레베이터 근접성</h3>
+                    <input type="radio" id="close" vlaue="yes">
+                    <label for="close">엘레베이터에서 가까운 객실</label>
+                    <input type="radio" id="far" value="no">
+                    <label for="far"> 엘레베이터에서 먼 객실</label>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <h3>기타 요청사항</h3>
+                    <ul id="fieldcontainer" style="list-style: none;">
+                        <li>
+                            <label><input type="checkbox" name="want">고층</label>
+                        </li>
+                        <li>
+                            <label><input type="checkbox" name="want">코너룸 제외</label>
+
+                        </li>
+                        <li>
+                            <label> <input type="checkbox" name="want"> 조용한 객실</label>
+                        </li>
+                        <li><label><input type="checkbox" name="want">담배냄세 제거 조치 필요</label></li>
+                    </ul>
+                    <textarea cols="80" rows="4" placeholder="편안하게 적어주세요."></textarea>
+
+                </fieldset>
+            </div>
+            <div>
+                <h3>예약 혜택</h3>
+                <br>
+                <h3>할인코드</h3>
+                <form action="">
+                    <fieldset>
+                        <fieldset id="fieldset">
+                            <legend>할인코드</legend>
+                            <input type="text" placeholder="입력 하세요">
+                        </fieldset>
+                    </fieldset>
+                </form>
+            </div>
+
+        </section>
+        <br>
+        <section>
+            <div>
+                <fieldset>
+                    <h3>이용 약관</h3>
+                    <label><input type="checkbox" id="agree-all">전체 동의</label>
+                    <fieldset>
+                        <ul id="fieldcontainer" style="list-style: none;">
+                            <li>
+                                <label><input type="checkbox" class="agree-item">18tp 이상 및 이용 약관 동의</label>
+                            </li>
+                            <li>
+                                <label> <input type="checkbox" class="agree-item">개인정보 수집및 이용 동의</label>
+
+                            </li>
+                            <li>
+                                <label> <input type="checkbox" class="agree-item">개인정보 제 3자 제공동의(필수)</label>
+
+                            </li>
+                            <li>
+                                <label><input type="checkbox" class="agree-item"> 개인정보 해외 이전 이전동의</label>
+                            </li>
+                        </ul>
+
+
+                    </fieldset>
+                </fieldset>
+            </div>
+        </section>
+        <button type="submit" class="iconlow">다음단계 최종 확정</button>
+    </main>
+
+    <hr>
+    <footer class="end">
+        <p>&copy;2025 행복 여행사.All rights reserved.</p>
+        <p>운영자 : 김동현 / 이메일 : kkkkkk@naver.com</p>
+        <p>고객센터: 한국 XXXX-XXXX 해외 +82 X XXXX XXXX</p>
+        <address>대한민국 경기도 <br>수층시 수원역 5층</address>
+
+    </footer>
+</body>
+
+</html>

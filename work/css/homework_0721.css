@@ -1,0 +1,123 @@
+ #img {
+     float: left;
+     height: 70px;
+     width: 70px;
+     grid-column: 1/3;
+     padding-left: 20px;
+     justify-self: center;
+ }
+
+ .wordstrong {
+     font-weight: bold;
+     color: hsl(0, 57%, 50%);
+ }
+
+ #header {
+     height: 70px;
+     background-color: antiquewhite;
+
+
+ }
+
+ * {
+     padding-left: 30px;
+     padding-right: 15px;
+
+ }
+
+ main {
+     background-color: rgb(3, 248, 24);
+ }
+
+ section,
+ footer {
+     background-color: #ffffc7;
+     border: 1px solid white;
+     border-radius: 10px;
+ }
+
+ #button {
+     background-color: #ffffc7;
+     border: 1px solid white;
+     border-radius: 10px;
+ }
+
+ #startbutton {
+     grid-column: 3/3;
+     float: right;
+     padding-right: 20px;
+     justify-self: center;
+
+     width: 132px;
+     /* 버튼의 너비 */
+     height: 32px;
+     /* 버튼의 높이 */
+     font-size: 15px;
+     /* 글씨 크기 조정 */
+     padding: 5px 15px;
+     /* 안쪽 여백 (수평, 수직) */
+     border-radius: 10px;
+     /* 모서리 둥글게 (선택 사항) */
+     background-color: #007bff;
+     /* 배경색 */
+     color: white;
+     /* 글자색 */
+     border: none;
+     /* 테두리 제거 */
+     cursor: pointer;
+     /* 마우스를 올릴 때 클릭 가능 표시 */
+
+     position: relative;
+     margin-top: -54px;
+ }
+
+ .container {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 10px;
+
+ }
+
+ #tophead {
+     text-align: center;
+ }
+
+ #fieldset {
+     width: 200px;
+     height: 50px;
+     padding: 1px;
+ }
+
+ #fieldcontainer {
+     display: flex;
+     gap: 20px;
+     padding-left: 0px;
+
+ }
+
+ .iconlow {
+     width: 100%;
+     /* 버튼의 너비 */
+     height: 60px;
+     /* 버튼의 높이 */
+     font-size: 18px;
+     /* 글씨 크기 조정 */
+     padding: 10px 20px;
+     /* 안쪽 여백 (수평, 수직) */
+     border-radius: 10px;
+     /* 모서리 둥글게 (선택 사항) */
+     background-color: #007bff;
+     /* 배경색 */
+     color: white;
+     /* 글자색 */
+     border: none;
+     /* 테두리 제거 */
+     cursor: pointer;
+     /* 마우스를 올릴 때 클릭 가능 표시 */
+     text-align: center;
+ }
+
+
+ .end {
+     text-align: center;
+ }

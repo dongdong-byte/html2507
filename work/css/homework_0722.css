@@ -1,0 +1,32 @@
+*{
+    text-align: center;
+}
+
+h1 {
+    background-color: black;
+    color: aliceblue;
+    font-size: 10px;
+    text-align: start;
+}
+
+h2 {
+    color: red;
+    font-size: 35px;
+    text-shadow: 1px 1px blanchedalmond;
+
+}
+
+p {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+span {
+    font-size: small;
+}
+.chiron {
+  font-family: "Chiron Sung HK", serif;
+  font-optical-sizing: auto;
+  font-weight : bold;
+  font-style : normal;
+}
