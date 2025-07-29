@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .conainer {
+            display: grid;
+            width: 800px;
+            border: 1px solid black;
+            margin-bottom: 20px;
+        }
+
+        #conainer1 {
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        }
+
+        #conainer2 {
+            grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        }
+
+
+        .item {
+            border: 1px solid black;
+            font-size: 30px;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .item:nth-child(even) {
+            background-color: aqua;
+        }
+
+        .item:nth-child(odd) {
+            background-color: rgb(59, 59, 201);
+        }
+    </style>
+</head>
+
+<body >
+    <div id="conainer1" class="conainer">
+        <h1>auto-fit일때</h1>
+        <div class="item">
+            <p>1</p>
+        </div>
+        <div class="item">
+            <p>2</p>
+        </div>
+        <div class="item">
+            <p>3</p>
+        </div>
+        <div class="item">
+            <p>4</p>
+        </div>
+        <div class="item">
+            <p>5</p>
+        </div>
+    </div>
+    <div id="conainer2" class="conainer">
+        <h1>auto-fill일때</h1>
+        <div class="item">
+            <p>1</p>
+        </div>
+        <div class="item">
+            <p>2</p>
+        </div>
+        <div class="item">
+            <p>3</p>
+        </div>
+        <div class="item">
+            <p>4</p>
+        </div>
+        <div class="item">
+            <p>5</p>
+        </div>
+    </div>
+</body>
+</body>
+
+</html>
